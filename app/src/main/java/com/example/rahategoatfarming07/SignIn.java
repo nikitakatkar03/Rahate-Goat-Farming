@@ -71,15 +71,6 @@ public class SignIn extends AppCompatActivity {
                 } else {
                     checkUser();
                 }
-
-                SharedPreferences sharedPreferences = getSharedPreferences(SignIn.PREFS_NAME,0);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-
-                editor.putBoolean("hasLoggedIn",true);
-                editor.commit();
-
-                startActivity(new Intent(SignIn.this,Profile.class));
-                finish();
             }
         });
 
@@ -165,6 +156,11 @@ public class SignIn extends AppCompatActivity {
                     loginUsername.setError("User does not exist");
                     loginUsername.requestFocus();
                 }
+                SharedPreferences sharedPreferences = getSharedPreferences(SignIn.PREFS_NAME,0);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+
+                editor.putBoolean("hasLoggedIn",true);
+                editor.commit();
             }
 
             @Override
