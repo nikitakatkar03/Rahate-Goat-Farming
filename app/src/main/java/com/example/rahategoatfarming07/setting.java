@@ -217,7 +217,7 @@ public class setting extends AppCompatActivity {
         donebut = findViewById(R.id.donebutt);
 
         progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Saing...");
+        progressDialog.setMessage("Loading...");
         progressDialog.setCancelable(false);
 
         DatabaseReference reference = database.getReference().child("user").child(auth.getUid());
@@ -277,7 +277,7 @@ public class setting extends AppCompatActivity {
                                                 finish();
                                             }else {
                                                 progressDialog.dismiss();
-                                                Toast.makeText(setting.this, "Some thing went romg", Toast.LENGTH_SHORT).show();
+                                                Toast.makeText(setting.this, "Some thing went wrong", Toast.LENGTH_SHORT).show();
                                             }
                                         }
                                     });
@@ -302,7 +302,7 @@ public class setting extends AppCompatActivity {
                                         finish();
                                     }else {
                                         progressDialog.dismiss();
-                                        Toast.makeText(setting.this, "Some thing went romg", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(setting.this, "Some thing went wrong", Toast.LENGTH_SHORT).show();
                                     }
                                 }
                             });

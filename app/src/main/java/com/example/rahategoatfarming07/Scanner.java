@@ -1,61 +1,116 @@
 package com.example.rahategoatfarming07;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.MimeTypeMap;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
 public class Scanner extends AppCompatActivity {
-    ImageView Scanner;
-    Uri setImageUri;
-    String imageuri;
-    Button Payment;
-    FirebaseAuth auth;
-    FirebaseDatabase database;
-    FirebaseStorage storage;
+    private FloatingActionButton uploadButton;
+    private ImageView uploadImage;
+    ProgressBar progressBar;
+    private Uri imageUri;
+    final  private DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("Images");
+    final private StorageReference storageReference = FirebaseStorage.getInstance().getReference();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner);
-
-        Scanner = findViewById(R.id.scanner);
-        Payment = findViewById(R.id.pay);
-
-        Payment.setOnClickListener(new View.OnClickListener() {
+        uploadButton = findViewById(R.id.pay);
+        uploadImage = findViewById(R.id.scanner2);
+        ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartActivityForResult(),
+                new ActivityResultCallback<ActivityResult>() {
+                    @Override
+                    public void onActivityResult(ActivityResult result) {
+                        if (result.getResultCode() == Activity.RESULT_OK){
+                            Intent data = result.getData();
+                            imageUri = data.getData();
+                            uploadImage.setImageURI(imageUri);
+                        } else {
+                            Toast.makeText(Scanner.this, "No Image Selected", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                }
+        );
+        uploadImage.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setType("image/*");
-                intent.setAction(Intent.ACTION_GET_CONTENT);
-                startActivityForResult(Intent.createChooser(intent, "Select Picture"), 10);
+            public void onClick(View view) {
+                Intent photoPicker = new Intent();
+                photoPicker.setAction(Intent.ACTION_GET_CONTENT);
+                photoPicker.setType("image/*");
+                activityResultLauncher.launch(photoPicker);
+            }
+        });
+        uploadButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (imageUri != null){
+                    uploadToFirebase(imageUri);
+                } else  {
+                    Toast.makeText(Scanner.this, "Please select image", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
-
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 10) {
-            if (data != null) {
-                setImageUri = data.getData();
-                Toast.makeText(Scanner.this, "Successfully Uploaded", Toast.LENGTH_SHORT).show();
+    //Outside onCreate
+    private void uploadToFirebase(Uri uri){
+        final StorageReference imageReference = storageReference.child(System.currentTimeMillis() + "." + getFileExtension(uri));
+        imageReference.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                imageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                    @Override
+                    public void onSuccess(Uri uri) {
+                        String key = databaseReference.push().getKey();
+                        Toast.makeText(Scanner.this, "Uploaded", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(Scanner.this, Dashboard.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                });
             }
-        }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                progressBar.setVisibility(View.INVISIBLE);
+                Toast.makeText(Scanner.this, "Failed", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+    private String getFileExtension(Uri fileUri){
+        ContentResolver contentResolver = getContentResolver();
+        MimeTypeMap mime = MimeTypeMap.getSingleton();
+        return mime.getExtensionFromMimeType(contentResolver.getType(fileUri));
     }
 }

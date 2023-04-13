@@ -35,7 +35,6 @@ public class SignIn extends AppCompatActivity {
         setContentView(R.layout.activity_signin);
         loginUsername = findViewById(R.id.inputUsername);
         loginPassword = findViewById(R.id.inputPassword);
-        ForgotPassword = findViewById(R.id.forgotPassword);
         loginButton = findViewById(R.id.btnLogin);
         createnewAccount = findViewById(R.id.createNewAccount);
 
@@ -71,26 +70,8 @@ public class SignIn extends AppCompatActivity {
                 } else {
                     checkUser();
                 }
-
-                SharedPreferences sharedPreferences = getSharedPreferences(SignIn.PREFS_NAME,0);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-
-                editor.putBoolean("hasLoggedIn",true);
-                editor.commit();
-
-                startActivity(new Intent(SignIn.this,Profile.class));
-                finish();
             }
         });
-
-        ForgotPassword.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(SignIn.this, Register.class);
-                startActivity(intent);
-            }
-        });
-
         createnewAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -165,6 +146,11 @@ public class SignIn extends AppCompatActivity {
                     loginUsername.setError("User does not exist");
                     loginUsername.requestFocus();
                 }
+                SharedPreferences sharedPreferences = getSharedPreferences(SignIn.PREFS_NAME,0);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+
+                editor.putBoolean("hasLoggedIn",true);
+                editor.commit();
             }
 
             @Override
