@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color4"
+    tools:context=".Disease1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_bg"
+            android:src="@drawable/disease1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="
+   Goat diseases i.e. this PPR disease is the most
+dangerous and fatal disease in goat's disease.
+This disease was first seen in 1942 in West
+Africa. But today this disease has spread all
+over the world. And almost every country's
+Bakriyan (Goat) can be affected by this disease.
+This disease can happen to Bakri of any age. It
+is said about this PPR disease that the goats
+who get this disease. It is very difficult to
+escape him. That is, the mortality rate in this
+disease is very high, up to 90%. Suppose 100
+goats got this disease, then it is believed that
+90 goats are sure to die from this disease.
+"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="->  Symptoms of PPR Disease in Goat"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="1.Bakri's body temperature increases. And Bakri
+may have fever."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="2.The goat's nose and eyes start dripping like
+saliva. which keeps coming out."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="3.Goat starts complaining of diarrhea and
+pneumonia."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="4.There is a bad smell coming from the goat's
+mouth."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="5.Due to this Goat disease i.e. goat's disease
+goats often stop eating fodder."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="6.Blood may also come along when goats are
+passing stools."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="-> PPR Goat Disease Prevention"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="1.However, as We have mentioned in the above
+sentence. 90% of goats affected by this goat
+disease die. Below we are giving some tips
+for the prevention of this disease. So that this
+disease does not spread to other goats."
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="2.To protect the healthy goat from diseases like
+PPR, keep it fixed from time to time.
+Always keep your Goat Farm clean and free
+from germs."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="3.Do not keep Bakri suffering from this disease
+with other goats. Treat it by keeping it
+separately."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="4.Always be in touch with the nearest veterinary
+center or vet."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="5.The vessel which is used to feed or water
+the goat suffering from this Bakri ki bimari
+(disease). If Bakri dies, then bury the utensils
+inside the ground. So that this infectious Bimari
+does not fall on any other Bakri."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="6.Do not try to sell or send the goat suffering from
+this disease to anyone."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="7.If any goat has been seriously affected by this
+disease. So the only solution is to kill that goat.
+So that this disease does not spread to other
+goats."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="->Treatment/Cure of PPR disease"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="   Consult your nearest veterinarian and give
+antibiotic and anti-serum medicines to goats
+suffering from this disease. These drugs have
+the ability to destroy the germs of PPR."
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

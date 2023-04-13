@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Disease4"
+    android:background="@drawable/background_color4"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_bg"
+            android:src="@drawable/disease4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="
+   This disease not only affects goats but also
+other domestic animals like cows, buffaloes,
+sheep. Cow is more affected by this disease
+than any other animal. That is, this disease is
+seen more in cows. The cause of this disease is
+a virus called Picorna. This goat disease can be
+identified by the following symptoms.
+"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="-> Symptoms of Foot and Mouth Disease in Goat"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="1.Bakri suffering from this disease starts
+getting fever."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="  2.Blisters appear in the mouth, on the tongue, on
+the lips or in the jaws of a goat or cow or other
+animal."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="3.And while eating these blisters burst. Due to
+which a red colored wound starts appearing in
+the blistered area."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="4.During this goat's disease, there is constant
+saliva coming out of the animal's mouth.
+The wound starts to smell very foul."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="5.Various types of insects are produced in the
+wound."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="-> Prevention of Foot and Mouth Disease in Goat"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="  1.Keep Bakri suffering from this goat disease
+separate from other Bakriya."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="2.Keep the affected animal or bakri in a clean dry
+place."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="3.Clean the animal's wound thrice a day using a
+suitable lotion."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="4.Antibiotic powder can be used after cleaning
+the wound with a suitable lotion."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="   5.Give the affected animal such food which it can
+swallow easily."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="  6.As soon as you feel that your bakri or animal
+has some disease. Contact your nearest vet
+immediately."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="   7.Vaccination from time to time is very important
+Make sure to vaccinate your animal against this
+goat disease once in every six months."
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</ScrollView>

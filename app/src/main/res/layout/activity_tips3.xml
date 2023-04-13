@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tips3"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="1350dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="10dp"
+            android:text="        Humans have always been following
+animals and are doing it even today. To
+raise any animal and bird, one has to
+learn to take proper care of its living and
+food. Similarly, for goat rearing, it is very
+important to take care of goats properly.
+Although goat rearing is mostly done by
+the people of the village, but now it is
+becoming very popular in the cities as well.
+\n
+\n         For this reason the demand for its goat
+farming training has increased a lot. It is
+very important to have knowledge of any
+business to do well. This is also applicable
+in the business of goat rearing. To get
+complete knowledge of goat farming,
+training is very necessary.
+\n
+\n   There are
+many training institutes in India for goat
+farming training, where you can get proper
+information about goat farming by getting
+admission.There you will be fully taught
+about the breed of goat, their diet and how
+to take care of them properly. Along with
+this, you will also be told to get proper
+profit in goat farming.
+\n
+\n            The best training
+in goat farming in India takes place at the
+Central Goat Research Center (CIRG- The
+Central Institute for Research on Goat)
+This training center is in Mathura, Uttar
+Pradesh. You can apply for training by
+visiting its website.
+\n
+\n       There you will be given
+the email address and phone number of
+the center mainly you can contact there. In
+this training, you will have to spend from
+6,000 to 10,000 rupees, which will also
+include food and lodging arrangements
+These institutes will teach you goat
+farming both theoretically and practical."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

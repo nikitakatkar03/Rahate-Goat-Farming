@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Farming1"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="            There are 20 established breeds of goats in India. The special thing is that many times more goats of nondescript breed are found here than the number of these breed goats.
+            \n
+            \n          While choosing the right goat for goat rearing, keep in mind that whatever goat breed you choose, it should be able to adapt to the environment where you live.
+\n
+\n   Choose the right breed of goats according to their location so that they can adapt themselves to the environment. We have mentioned
+some state-wise breeds to help you."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

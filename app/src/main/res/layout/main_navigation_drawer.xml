@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/menu"
+        android:onClick="ClickLogo"
+        android:orientation="vertical"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="Clickhome">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/baseline_home_24"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="Home"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickBusinessTips">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_tips_and_updates_24"
+            android:text="Business Tips"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickContactUs">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:text="Contact Us"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickLocation"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_location_on_24"
+            android:text="Location"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickSocialMedia"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/baseline_groups_24"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="Social Media"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickShare">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/baseline_share_24"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="Share"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickSetting">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/baseline_settings_24"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="Setting"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:onClick="ClickLogout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/baseline_exit_to_app_24"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="Log Out"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color5"
+    tools:context=".Milk">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="300dp"
+            android:background="@drawable/input_bg1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="          The average goat can mate at an age of 1-1,5 years old (there are some striking exceptions to this rule).
+            \n  The pregnancy period lasts about 5 months.
+            \n Once the goat gives birth, she starts producing milk right away, but we should not milk her for the first 1-2 weeks (ask your seller and your vet about the specifications of the breed).
+            \n   The reason is that the newborn goats really need this type of milk, which is most often not suitable for humans. After 2 weeks, we can (and should) milk the goat for about 9-10 months, twice a day (morning and evening), otherwise we put her health into danger.
+            \n  Every goat should be dried off at least two months prior to mating again."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="660dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="  We can milk our goat by hand or through a milking machine (cost 200-700 $). In both cases, hygiene and sanitation is everything. We must first sterilize the milk bucket with boiled water.
+            \n  Then we have to put the goat in the milking stand, immobilize her by gently locking her head and restrain the rear legs (this is not necessary if your goat is calm).
+            \n  Many farmers offer grains to their goats during the milking, so as to distract them and keep them busy. We must then wash with warm water the udder and teats of the goat.
+            \n  This washing not only cleans the teats, but also relaxes the goat. Then we sweep the teats with a dry and clean paper towel and we start the milking session."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="    Milking by hand is wrongly related with pulling down the teats of the goats. Pulling the teats will definitely lead to an injury. Instead, a trapping and squeezing motion must be applied, most often with the thumb and the index finger.
+            \n
+            \n  Your first milking sessions (by hand) are expected to last on average 10-15 minutes per goat. However, after a few weeks of experience, you will be able to finish milking each goat on 5 minutes (on average).
+            \n
+            \n  When we finish, we must wash again the teats with water, soaps or special solutions. Many farmers dip the goats’ teats in special antibacterial solutions after milking, but you should contact your local licensed veterinarian for further instructions."
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="
+            If we have decided to use a milking machine, before and after every milking session we have to clean all the parts of the machine with a proper cleaner, according to manufacturer’s instructions. Most portable milking machines are comprised of the milking claws, the pump and of course the milk bucket. Remember that in machine milking we must hand milk the first and the last drops of the teats for various reasons (check if there is any blood in the milk).
+            \n
+            \n   When we switch on the machine, milk is vacuumed out through the claws, into the lines and finally into the bucket. When we finish, we remove the claws and –as in hand milking- we may dip the goat’s teats in an antibacterial solution.
+Keep in mind that goats often get dehydrated after the milking process, so we must offer them fresh water and hay when the milking is over. As a rule of thumb, we must store the milk in the fridge immediately after the milking session. Alternatively, we can pasteurize it and cool it afterwards.
+You can enrich this article by leaving a comment or photo of your goat milking methods and techniques."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/input_bg1"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/video_view"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</ScrollView>

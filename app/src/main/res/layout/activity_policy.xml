@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Policy"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <TextView
+            tools:ignore="MissingPrefix"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:fontFamily="@font/aldrich"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Privacy Policy"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            tools:ignore="MissingPrefix"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="1200dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="This privacy notice for Rahate Goat Farming,(Company,we,us or our)describes how and why we might collect, store, use, and/or share (process) your information when you use our services (Services), such as when you:
+            \n
+            \n -> download and use our mobile application (Rahate Goat Farming ), or any other application of ours that links to this privacy notice.
+            \n
+            \n-> Engage with us in other related ways,including any sales, marketing, or events.
+            \n
+            \n-> Changes to This Privacy Policy :
+
+\n  Rahate Goat Farming may make changes to this privacy policy from time to time. Your continued use of Plantake services after any changes have been made indicates your acceptance of the updated privacy policy.
+        \n
+        \nQuestions or concerns?
+        \nReading this privacy notice will help you understand your privacy rights an choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us  at Jayeshrahate564@gmail.com.Our privacy team will be happy to assist you.
+\n
+\n Thank you for choosing Rahate Goat Farming, and we look forward to serving you."
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

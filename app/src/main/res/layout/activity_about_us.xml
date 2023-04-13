@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUs"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <TextView
+            tools:ignore="MissingPrefix"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:fontFamily="@font/aldrich"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="About Us!"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            tools:ignore="MissingPrefix"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Welcome To Rahate Goat Farming
+\n
+\nRahate Goat Farming is a Professional Educational, E-commerce, Informative Platform.
+Here we will provide you only interesting content, which you will like a lot. We're dedicated to providing you the best of Education, Information, with a focus on dependability Business Tips, Goat Information and guidance Videos, Youtube Channel for reference, Online Payment, Chat Option and many more.
+\n
+\nWe're working to turn our
+passion for Education, E-commerce, Information into a booming android Application.
+We hope you enjoy our Educational, E-
+commerce, Informative Services as much as we
+enjoy offering them to you.
+\n
+\nWe will keep updating this application concurrently more as per your interest and feedbacks as well on
+Our application for all of you.
+Please kindly post Feedback if any and give your support and love."
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

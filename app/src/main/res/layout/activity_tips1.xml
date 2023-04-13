@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tips1"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="   Goat farming is such a business that gives
+more profit in less investment. Along with
+this, it provides a good environment to the
+animals. In today's era, people follow many
+animals, whose food, water and living
+arrangements are very expensive for them.
+\n
+\n      On the other hand, goat farming is a cheap
+and sustainable business in which you
+can take maximum profit due to low cost
+of rearing. The business of selling goat
+rearing can prove to be very beneficial and
+useful for you.Profit can be earned from
+goat farming business in the following
+ways
+\n1 By selling milking goats
+\n2 Selling goats as meat
+\n3 Income from wool and hide
+\n4 By selling goat's meringues as manure."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tips4"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="1300dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="   Goat rearing is a very easy business,
+but we have to take special care of
+many important things in it. These are
+something like this.
+\n
+\n1 For goat rearing, the first thing to be
+kept in mind is that the goats should be
+kept on solid ground where there is no
+moisture. Keep them in a place that is
+ventilated and clean.
+\n    2 Be sure to include green fodder in the
+fodder of goats. Green fodder is very
+beneficial for goats
+\n    3 Keep the goats away from the rain as
+constant drenching in water is harmful for
+the goats.
+\n  4 Three things are very important for goat
+rearing:
+\n   1 Money: Nothing happens without
+money and in the same way money is very
+important for goat farming. Even if you
+start small.
+\n  2 Place: Choose a good place for goats,
+but remember that if the place is your own,
+it will be better. For these, 1 to 2 acres of land is
+required. Goat rearing on rent is not
+proper and is very expensive.
+\n  3 Patience: It is very important for you
+to have patience in this
+business. You cannot make profits in this
+immediately, for that you have to wait for 1
+to 2 years. It also depends to a great extent
+on the breed of goat, in how much time you
+start making profits.
+\n
+\n  5 Goat rearing requires close attention to
+goats. If you take good training then you
+will understand at a glance who is sick and
+who is fine.
+\n
+\n  6 Goats need to be taken care of.
+Whenever she is sick, she first stops
+eating and drinking. In such a situation,
+keep taking veterinary advice as well."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

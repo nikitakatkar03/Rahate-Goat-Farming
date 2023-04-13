@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GoatBirth"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/video_view2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="300dp"
+            android:background="@drawable/input_bg1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="   If you are present at the birth and can help in delivery,
+the chances of loosing a kid at birth are almost eliminated.
+
+If your doe knows you, and likes you, she is going to have no problem with you getting involved   You helping will not interfere with the bonding of the mother and kid(s), and will more likely help the bonding.
+\n
+\n  Also, if the mother refuses the kid, you will be there to take on as mother as needed.
+
+
+
+Here are the steps we use in aiding a normal delivery, these steps assume the kid(s) are in the proper and most common diving position.  Steps will vary for situations when the kids are not correctly positioned.
+\n
+\n1) Know when your doe is going to kid so you can be there to help.
+\n
+\n 2) Be prepared,Birthing Kit
+Give the doe a haircut before she kids; preferably a week ahead of time.So it's is easier to keep her clean during and after birth... it is a messy business.  Also, it will help you in milking and a kid in nursing.
+Have a clean kidding stall prepared.
+\n
+\n3) Know the signs of labor and what to expect.
+\n
+\n4) Trust your instincts and stay calm."
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

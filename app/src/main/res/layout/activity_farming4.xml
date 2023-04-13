@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Farming4"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Goats should be vaccinated, mainly
+because of the fear of four diseases.
+These diseases and their vaccination are
+as follows:
+\n
+\nBPR:
+\nWhich is given to the goat once in 3
+to 4 months
+Itrotoxemia: given 21 days after the first
+vaccine, then every month.
+\n
+\nFMD and HS:
+\nThese vaccines are given at
+two to four months of age, then again after
+4 to 6 months.
+Godpox: This vaccine is given every 3 to 4
+months."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

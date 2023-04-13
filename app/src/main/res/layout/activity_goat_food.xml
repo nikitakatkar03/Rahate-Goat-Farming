@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GoatFood"
+    android:background="@drawable/background_color5"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_bg"
+            android:src="@drawable/food"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1300dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="
+      Before discussing the topic of Goat's food
+in India i.e. Food for goats in India, it is very
+important to understand that goats can be
+left to eat grass, leaves etc. in open field too.
+\n
+\n   In goat's food, mainly dry grass, sorting, bran,
+leaves of vegetables, plants and granular food
+are fed to goats. While choosing food for goat, it
+is very important to keep in mind that goats do
+not like rotten street in their food.
+Following is the list of fibrous food for goats.
+-eaves of trees like Acacia, Banyan, Tut, Neem
+Mango, Jackfruit, Peepal, Betun, Bhimal etc.
+Leaves of bushes like hibiscus, plum, rose
+karonj, kilmora etc.
+Leaves or stalks of fenugreek leaves,
+radish leaves, spinach, mustard, bathua, carrot,
+turnip, cauliflower etc.
+\n
+\n  Acacia and pea leaves are included in the list of
+leguminous ie succulent leaves
+The common grass in the list of goat food
+includes names like Anjan, Senji, Doob, Hirakuri,
+Motha etc.
+Grass like corn, jowar, para grass, hybrid napier,
+lucerne, barseem etc. can be produced for the
+food of goats.
+\n
+\n  Chili of wheat, chili of barley, chili of various
+pulses can be used as dry grass and straw.
+2 Granulated food for goats:
+Granular food for goats is also easily available
+in the market, so a person can buy this food
+from the market as well, but if the goat farmer
+is a farmer, then with the help of various crops,
+he can prepare granular food for goats at home
+as well. The grainy food of goats can be divided
+into the following three parts."
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

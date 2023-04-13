@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Rahate Goat Farming</string>
+    <string name="open_nav">Open MenuBar</string>
+    <string name="close_nav">Close MenuBar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Price -->
+    <string name="one">price</string>
+    <string name="two">₹8000</string>
+    <string name="three">₹12000</string>
+    <string name="four">₹35000</string>
+    <string name="five">₹60000</string>
+    <string name="six">₹70000</string>
+    <string name="seven">₹70000</string>
+    <string name="eight">₹70000</string>
+
+    <string name="h1">₹20000</string>
+    <string name="h2">₹35000</string>
+    <string name="h3">₹90000</string>
+    <string name="h4">₹150000</string>
+    <string name="h5">₹150000</string>
+    <string name="h6">₹150000</string>
+    <string name="h7">₹150000</string>
+</resources>

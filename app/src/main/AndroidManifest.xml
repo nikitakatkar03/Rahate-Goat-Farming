@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RahateGoatFarming07"
+        tools:targetApi="31">
+        <activity
+            android:name=".Terms"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Policy"
+            android:exported="false" />
+        <activity
+            android:name=".Scanner"
+            android:exported="false" />
+        <activity
+            android:name=".Goat9"
+            android:exported="false" />
+        <activity
+            android:name=".ClickBuy"
+            android:exported="false" />
+        <activity
+            android:name=".Disease6"
+            android:exported="false" />
+        <activity
+            android:name=".Disease5"
+            android:exported="false" />
+        <activity
+            android:name=".Disease4"
+            android:exported="false" />
+        <activity
+            android:name=".Disease3"
+            android:exported="false" />
+        <activity
+            android:name=".Disease2"
+            android:exported="false" />
+        <activity
+            android:name=".Disease1"
+            android:exported="false" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Set"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Social_Media"
+            android:exported="false" />
+        <activity
+            android:name=".Tips4"
+            android:exported="false" />
+        <activity
+            android:name=".Tips3"
+            android:exported="false" />
+        <activity
+            android:name=".Tips2"
+            android:exported="false" />
+        <activity
+            android:name=".Tips1"
+            android:exported="false" />
+        <activity
+            android:name=".BusinessTips"
+            android:exported="false" />
+        <activity
+            android:name=".FarmTour"
+            android:exported="false" />
+        <activity
+            android:name=".GoatBirth"
+            android:exported="false" />
+        <activity
+            android:name=".GoatFood"
+            android:exported="false" />
+        <activity
+            android:name=".Farming5"
+            android:exported="false" />
+        <activity
+            android:name=".Farming4"
+            android:exported="false" />
+        <activity
+            android:name=".Farming3"
+            android:exported="false" />
+        <activity
+            android:name=".Farming2"
+            android:exported="false" />
+        <activity
+            android:name=".Farming1"
+            android:exported="false" />
+        <activity
+            android:name=".GoatFarming"
+            android:exported="false" />
+        <activity
+            android:name=".Milk"
+            android:exported="false" />
+        <activity
+            android:name=".GoatDiseases"
+            android:exported="false" />
+        <activity
+            android:name=".Goat8"
+            android:exported="false" />
+        <activity
+            android:name=".Goat7"
+            android:exported="false" />
+        <activity
+            android:name=".Goat6"
+            android:exported="false" />
+        <activity
+            android:name=".Goat5"
+            android:exported="false" />
+        <activity
+            android:name=".Goat4"
+            android:exported="false" />
+        <activity
+            android:name=".Goat3"
+            android:exported="false" />
+        <activity
+            android:name=".Goat2"
+            android:exported="false" />
+        <activity
+            android:name=".Goat1"
+            android:exported="false" />
+        <activity
+            android:name=".GoatInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".SlideActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".setting"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".chatwindo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".registration"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".ClickBuy">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/background_color"
+        android:weightSum="13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:layout_marginEnd="102dp"
+            android:text="Goats For Sale"
+            android:textColor="@android:color/white"
+            android:textSize="34sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="650dp"
+            android:backgroundTint="#9DECE2"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="250dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/goat1" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="270dp"
+                android:fontFamily="@font/aldrich"
+                android:text="JAMUNAPARI"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/j1"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/input_bg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="330dp"
+                android:gravity="center"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="Age: 4 months -₹8000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/j2"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="390dp"
+                android:gravity="center"
+                android:background="@drawable/input_bg"
+                android:drawablePadding="0dp"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="Age: 6 months -₹12000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/j3"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/input_bg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="450dp"
+                android:gravity="center"
+                android:drawablePadding="50dp"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="    Age: 1 year -₹35000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/j4"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="510dp"
+                android:gravity="center"
+                android:background="@drawable/input_bg"
+                android:drawablePadding="40dp"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="    Age: 2 years -₹60000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/j5"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="570dp"
+                android:gravity="center"
+                android:background="@drawable/input_bg"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="    Age: 3, 4, 5 years -₹70000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="650dp"
+            android:backgroundTint="#9DECE2"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="250dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/goat9" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="270dp"
+                android:fontFamily="@font/aldrich"
+                android:text="HANSA"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/h1"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/input_bg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="330dp"
+                android:gravity="center"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="Age: 4 months -₹20000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/h2"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="390dp"
+                android:gravity="center"
+                android:background="@drawable/input_bg"
+                android:drawablePadding="0dp"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="Age: 6 months -₹35000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/h3"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:background="@drawable/input_bg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="450dp"
+                android:gravity="center"
+                android:drawablePadding="50dp"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="    Age: 1 year -₹90000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/h4"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="510dp"
+                android:gravity="center"
+                android:background="@drawable/input_bg"
+                android:drawablePadding="40dp"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="    Age: 2 years -₹150000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/h5"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="570dp"
+                android:gravity="center"
+                android:background="@drawable/input_bg"
+                android:drawableRight="@drawable/baseline_chevron_right"
+                android:text="    Age: 3, 4, 5 years -₹150000"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

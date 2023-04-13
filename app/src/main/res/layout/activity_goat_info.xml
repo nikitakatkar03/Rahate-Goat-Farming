@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoatInfo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/background_color"
+        android:weightSum="13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="102dp"
+            android:text="Breeds Characteristics"
+            android:textColor="@android:color/white"
+            android:textSize="34sp" />
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:padding="1dp"
+            android:rowCount="4">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:backgroundTint="#5DC"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="163dp"
+                        android:layout_height="119dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jamunapari"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:backgroundTint="#5DC"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="163dp"
+                        android:layout_height="119dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Beetal Goat"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="0dp"
+                android:layout_height="155dp"
+                android:layout_rowWeight="1"
+                android:backgroundTint="#5DC"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="126dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Osmanabadi"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="0dp"
+                android:layout_height="173dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="#5DC"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="125dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Marwari"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c5"
+                android:layout_width="0dp"
+                android:layout_height="164dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="#5DC"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="104dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Barbari"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="#5DC"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="104dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat6" />
+
+                    <TextView
+                        android:layout_width="137dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sirohi"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c7"
+                android:layout_width="0dp"
+                android:layout_height="208dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="#5DC"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="137dp"
+                        android:layout_height="72dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat7" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Black Bengal"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c8"
+                android:layout_width="0dp"
+                android:layout_height="14dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="#5DC"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="89dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat8" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ganjam"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c9"
+                android:layout_width="0dp"
+                android:layout_height="164dp"
+                android:layout_rowWeight="1"
+                android:backgroundTint="#5DC"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="12dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="89dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/goat9" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hansa"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
